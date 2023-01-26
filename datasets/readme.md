@@ -3,5 +3,4 @@ terference and Semantic Interpretation. Journal of348
 Memory and Language, 102:16–27.
 
 2. Anna Laurinavichyute and Titus von der Malsburg.368
-2022. Semantic Attraction in Sentence Comprehen-369
-sion. Cognitive Science, 46(2):e13086
+2022. Semantic Attraction in Sentence Comprehension. Cognitive Science, 46(2):e13086
