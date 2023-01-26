@@ -1,0 +1,136 @@
+,ID,Sentence,Attraction,Violation,Condition,Attractor,Adverb,Target,ilm_sent_mean_surp,ilm_target_mean_surp,ilm_sent_a-s,ilm_sent_b-s,ilm_sent_c-s,ilm_sent_d-s,ilm_target_a-s,ilm_target_b-s,ilm_target_c-s,ilm_target_d-s,gptneo_sent_mean_surp,gptneo_target_mean_surp,gptneo_sent_a-s,gptneo_sent_b-s,gptneo_sent_c-s,gptneo_sent_d-s,gptneo_target_a-s,gptneo_target_b-s,gptneo_target_c-s,gptneo_target_d-s,distilgpt2_sent_mean_surp,distilgpt2_target_mean_surp,ilm_sent_a-b,ilm_sent_c-d,ilm_target_a-b,ilm_target_c-d,gptneo_sent_a-b,gptneo_sent_c-d,gptneo_target_a-b,gptneo_target_c-d,distilgpt2_sent_a-s,distilgpt2_sent_b-s,distilgpt2_sent_c-s,distilgpt2_sent_d-s,distilgpt2_sent_a-b,distilgpt2_sent_c-d,distilgpt2_target_a-s,distilgpt2_target_b-s,distilgpt2_target_c-s,distilgpt2_target_d-s,distilgpt2_target_a-b,distilgpt2_target_c-d
+0,1,The museum of art soon opens.,none,none,s,art,soon,opens,5.69,6.53,,,,,,,,,5.8,6.51,,,,,,,,,6.65,6.12,,,,,,,,,,,,,,,,,,,,
+1,1,The museum of art soon open.,none,morphosyntactic,a,art,soon,open,6.05,10.34,0.36,,,,3.81,,,,6.42,11.17,0.62,,,,4.66,,,,7.05,9.97,,,,,,,,,0.4,,,,,,3.85,,,,,
+2,1,The museum of arts soon open.,morphosyntactic,morphosyntactic,b,arts,soon,open,6.85,10.17,,1.16,,,,3.64,,,6.72,8.72,,0.92,,,,2.21,,,7.77,9.64,-0.8,,0.17,,-0.3,,2.45,,,1.12,,,-0.72,,,3.52,,,0.33,
+3,1,The museum of art soon shoots.,none,semantic,c,art,soon,shoots,7.22,14.63,,,1.53,,,,8.1,,7.41,15.49,,,1.61,,,,8.98,,8.15,15.62,,,,,,,,,,,1.5,,,,,,9.5,,,
+4,1,The museum of the photographer soon shoots.,semantic,semantic,d,photographer,soon,shoots,6.98,14.06,,,,1.29,,,,7.53,7.45,15.61,,,,1.65,,,,9.1,8.26,17.19,,0.24,,0.57,,-0.04,,-0.12,,,,1.61,,-0.11,,,,11.07,,-1.57
+5,2,The shredder near the table usually squeals.,none,none,s,table,usually,squeals,5.66,7.92,,,,,,,,,6.28,8.23,,,,,,,,,6.41,7.88,,,,,,,,,,,,,,,,,,,,
+6,2,The shredder near the table usually squeal.,none,morphosyntactic,a,table,usually,squeal,6.11,8.87,0.45,,,,0.95,,,,6.91,8.52,0.63,,,,0.29,,,,6.89,9.34,,,,,,,,,0.48,,,,,,1.46,,,,,
+7,2,The shredder near the tables usually squeal.,morphosyntactic,morphosyntactic,b,tables,usually,squeal,6.36,8.53,,0.7,,,,0.61,,,7.08,8.33,,0.8,,,,0.1,,,6.89,8.2,-0.25,,0.34,,-0.17,,0.19,,,0.48,,,0.0,,,0.32,,,1.14,
+8,2,The shredder near the table usually scans.,none,semantic,c,table,usually,scans,6.65,13.56,,,0.99,,,,5.64,,7.4,15.43,,,1.12,,,,7.2,,7.5,13.23,,,,,,,,,,,1.09,,,,,,5.35,,,
+9,2,The shredder near the copier usually scans.,semantic,semantic,d,copier,usually,scans,6.94,12.07,,,,1.28,,,,4.15,6.52,13.31,,,,0.24,,,,5.08,7.73,12.68,,-0.29,,1.49,,0.88,,2.12,,,,1.32,,-0.23,,,,4.8,,0.55
+10,3,The car with the dent silently approaches.,none,none,s,dent,silently,approaches,6.61,10.38,,,,,,,,,6.51,8.73,,,,,,,,,7.36,9.51,,,,,,,,,,,,,,,,,,,,
+11,3,The car with the dent silently approach.,none,morphosyntactic,a,dent,silently,approach,6.95,12.94,0.34,,,,2.56,,,,7.19,13.77,0.68,,,,5.04,,,,7.9,14.2,,,,,,,,,0.54,,,,,,4.69,,,,,
+12,3,The car with the dents silently approach.,morphosyntactic,morphosyntactic,b,dents,silently,approach,6.0,11.89,,-0.61,,,,1.51,,,6.2,13.09,,-0.31,,,,4.36,,,6.45,10.84,0.95,,1.05,,0.99,,0.68,,,-0.91,,,1.45,,,1.33,,,3.36,
+13,3,The car with the dent loudly transmits.,none,semantic,c,dent,loudly,transmits,6.8,8.14,,,0.19,,,,-2.24,,6.43,6.69,,,-0.08,,,,-2.04,,7.44,7.39,,,,,,,,,,,0.08,,,,,,-2.12,,,
+14,3,The car with the walkie talkie loudly transmits.,semantic,semantic,d,walkie talkie,loudly,transmits,4.89,7.96,,,,-1.72,,,,-2.42,4.72,6.48,,,,-1.79,,,,-2.25,5.35,8.14,,1.91,,0.18,,1.71,,0.21,,,,-2.01,,2.09,,,,-1.37,,-0.75
+15,4,The shelf with the jar softly creaks.,none,none,s,jar,softly,creaks,6.01,5.9,,,,,,,,,5.61,3.17,,,,,,,,,6.95,6.77,,,,,,,,,,,,,,,,,,,,
+16,4,The shelf with the jar softly creak.,none,morphosyntactic,a,jar,softly,creak,6.23,7.0,0.22,,,,1.1,,,,6.06,5.59,0.45,,,,2.42,,,,7.22,8.32,,,,,,,,,0.27,,,,,,1.55,,,,,
+17,4,The shelf with the jars softly creak.,morphosyntactic,morphosyntactic,b,jars,softly,creak,6.31,6.72,,0.3,,,,0.82,,,5.7,4.63,,0.09,,,,1.46,,,7.12,6.47,-0.08,,0.28,,0.36,,0.96,,,0.17,,,0.1,,,-0.3,,,1.85,
+18,4,The shelf with the jar delicately blooms.,none,semantic,c,jar,delicately,blooms,5.16,5.33,,,-0.85,,,,-0.57,,5.77,7.63,,,0.16,,,,4.46,,6.16,6.26,,,,,,,,,,,-0.79,,,,,,-0.51,,,
+19,4,The shelf with the plant delicately blooms.,semantic,semantic,d,plant,delicately,blooms,5.23,4.43,,,,-0.78,,,,-1.47,5.63,5.41,,,,0.02,,,,2.24,6.28,6.05,,-0.07,,0.9,,0.14,,2.22,,,,-0.67,,-0.12,,,,-0.72,,0.21
+20,5,The boat with the flag silently glides.,none,none,s,flag,silently,glides,6.19,6.91,,,,,,,,,5.48,2.38,,,,,,,,,6.0,5.53,,,,,,,,,,,,,,,,,,,,
+21,5,The boat with the flag silently glide.,none,morphosyntactic,a,flag,silently,glide,7.13,15.68,0.94,,,,8.77,,,,6.65,11.0,1.17,,,,8.62,,,,7.36,15.98,,,,,,,,,1.36,,,,,,10.45,,,,,
+22,5,The boat with the flags silently glide.,morphosyntactic,morphosyntactic,b,flags,silently,glide,7.28,14.97,,1.09,,,,8.06,,,6.77,10.16,,1.29,,,,7.78,,,7.42,13.82,-0.15,,0.71,,-0.12,,0.84,,,1.42,,,-0.06,,,8.29,,,2.16,
+23,5,The boat with the flag silently rows.,none,semantic,c,flag,silently,rows,7.12,17.07,,,0.93,,,,10.16,,6.68,11.23,,,1.2,,,,8.85,,7.32,16.39,,,,,,,,,,,1.32,,,,,,10.86,,,
+24,5,The boat with the contestant silently rows.,semantic,semantic,d,contestant,silently,rows,7.97,16.56,,,,1.78,,,,9.65,7.58,12.35,,,,2.1,,,,9.97,8.4,15.08,,-0.85,,0.51,,-0.9,,-1.12,,,,2.4,,-1.08,,,,9.55,,1.31
+25,6,The exit next to the traffic light apparently leads.,none,none,s,traffic light,apparently,leads,5.74,8.58,,,,,,,,,6.07,4.85,,,,,,,,,6.57,7.72,,,,,,,,,,,,,,,,,,,,
+26,6,The exit next to the traffic light apparently lead.,none,morphosyntactic,a,traffic light,apparently,lead,5.92,10.95,0.18,,,,2.37,,,,6.42,9.41,0.35,,,,4.56,,,,6.84,11.08,,,,,,,,,0.27,,,,,,3.36,,,,,
+27,6,The exit next to the traffic lights apparently lead.,morphosyntactic,morphosyntactic,b,traffic lights,apparently,lead,5.84,10.29,,0.1,,,,1.71,,,6.53,8.47,,0.46,,,,3.62,,,6.7,10.03,0.08,,0.66,,-0.11,,0.94,,,0.13,,,0.14,,,2.31,,,1.05,
+28,6,The exit next to the traffic light apparently dries up.,none,semantic,c,traffic light,apparently,dries up,4.79,5.88,,,-0.95,,,,-2.7,,5.08,5.18,,,-0.99,,,,0.33,,5.6,6.05,,,,,,,,,,,-0.97,,,,,,-1.67,,,
+29,6,The exit next to the creek apparently dries up.,semantic,semantic,d,creek,apparently,dries up,5.0,5.35,,,,-0.74,,,,-3.23,5.44,4.05,,,,-0.63,,,,-0.8,5.89,5.87,,-0.21,,0.53,,-0.36,,1.13,,,,-0.68,,-0.29,,,,-1.85,,0.18
+30,7,The tram stop next to the fire hydrant usually shelters.,none,none,s,hydrant,usually,shelters,5.37,14.17,,,,,,,,,5.24,11.99,,,,,,,,,6.24,14.48,,,,,,,,,,,,,,,,,,,,
+31,7,The tram stop next to the fire hydrant usually shelter.,none,morphosyntactic,a,hydrant,usually,shelter,5.47,16.6,0.1,,,,2.43,,,,5.42,15.74,0.18,,,,3.75,,,,6.49,16.9,,,,,,,,,0.25,,,,,,2.42,,,,,
+32,7,The tram stop next to the fire hydrants usually shelter.,morphosyntactic,morphosyntactic,b,hydrants,usually,shelter,5.21,15.25,,-0.16,,,,1.08,,,5.18,15.26,,-0.06,,,,3.27,,,5.96,14.35,0.26,,1.35,,0.24,,0.48,,,-0.28,,,0.53,,,-0.13,,,2.55,
+33,7,The tram stop next to the fire hydrant usually sells.,none,semantic,c,hydrant,usually,sells,5.08,9.06,,,-0.29,,,,-5.11,,5.21,7.36,,,-0.03,,,,-4.63,,5.95,7.95,,,,,,,,,,,-0.29,,,,,,-6.53,,,
+34,7,The tram stop next to the shop usually sells.,semantic,semantic,d,shop,usually,sells,5.65,7.22,,,,0.28,,,,-6.95,5.59,4.88,,,,0.35,,,,-7.11,6.59,6.16,,-0.57,,1.84,,-0.38,,2.48,,,,0.35,,-0.64,,,,-8.32,,1.79
+35,8,The restaurant with the chocolate fountain admittedly goes bankrupt.,none,none,s,fountain,admittedly,goes bankrupt,6.58,10.18,,,,,,,,,6.36,10.38,,,,,,,,,7.29,10.27,,,,,,,,,,,,,,,,,,,,
+36,8,The restaurant with the chocolate fountain admittedly go bankrupt.,none,morphosyntactic,a,fountain,admittedly,go bankrupt,7.28,14.76,0.7,,,,4.58,,,,6.98,14.49,0.62,,,,4.11,,,,7.89,14.16,,,,,,,,,0.6,,,,,,3.89,,,,,
+37,8,The restaurant with the chocolate fountains admittedly go bankrupt.,morphosyntactic,morphosyntactic,b,fountain,admittedly,go bankrupt,6.36,13.39,,-0.22,,,,3.21,,,6.0,13.32,,-0.36,,,,2.94,,,6.67,12.24,0.92,,1.37,,0.98,,1.17,,,-0.62,,,1.22,,,1.97,,,1.92,
+38,8,The restaurant with the chocolate fountain admittedly withers.,none,semantic,c,fountain,admittedly,withers,6.15,6.56,,,-0.43,,,,-3.62,,5.95,6.21,,,-0.41,,,,-4.17,,6.63,5.92,,,,,,,,,,,-0.66,,,,,,-4.35,,,
+39,8,The restaurant with the winter garden admittedly withers.,semantic,semantic,d,winter garden,admittedly,withers,6.27,6.17,,,,-0.31,,,,-4.01,6.2,5.78,,,,-0.16,,,,-4.6,6.87,5.69,,-0.12,,0.39,,-0.25,,0.43,,,,-0.42,,-0.24,,,,-4.58,,0.23
+40,9,The highrise with the loft proudly stands.,none,none,s,loft,proudly,stands,6.17,7.77,,,,,,,,,7.08,6.79,,,,,,,,,6.4,5.14,,,,,,,,,,,,,,,,,,,,
+41,9,The highrise with the loft proudly stand.,none,morphosyntactic,a,loft,proudly,stand,6.65,11.99,0.48,,,,4.22,,,,7.55,13.07,0.47,,,,6.28,,,,6.87,10.96,,,,,,,,,0.47,,,,,,5.82,,,,,
+42,9,The highrise with the lofts proudly stand.,morphosyntactic,morphosyntactic,b,lofts,proudly,stand,5.98,9.39,,-0.19,,,,1.62,,,6.4,9.99,,-0.68,,,,3.2,,,6.33,6.74,0.67,,2.6,,1.15,,3.08,,,-0.07,,,0.54,,,1.6,,,4.22,
+43,9,The highrise with the loft silently descends.,none,semantic,c,loft,silently,descends,5.55,3.8,,,-0.62,,,,-3.97,,6.22,4.16,,,-0.86,,,,-2.63,,6.06,4.34,,,,,,,,,,,-0.34,,,,,,-0.8,,,
+44,9,The highrise with the elevator silently descends.,semantic,semantic,d,elevator,silently,descends,5.22,3.38,,,,-0.95,,,,-4.39,5.69,2.8,,,,-1.39,,,,-3.99,5.82,4.01,,0.33,,0.42,,0.53,,1.36,,,,-0.58,,0.24,,,,-1.13,,0.33
+45,10,The wall calendar with the landscape always hangs.,none,none,s,landscape,always,hangs,7.17,9.79,,,,,,,,,6.67,8.99,,,,,,,,,7.63,10.41,,,,,,,,,,,,,,,,,,,,
+46,10,The wall calendar with the landscape always hang.,none,morphosyntactic,a,landscape,always,hang,7.69,15.51,0.52,,,,5.72,,,,6.92,12.86,0.25,,,,3.87,,,,8.23,16.46,,,,,,,,,0.6,,,,,,6.05,,,,,
+47,10,The wall calendar with the landscapes always hang.,morphosyntactic,morphosyntactic,b,landscapes,always,hang,7.75,13.59,,0.58,,,,3.8,,,6.93,10.5,,0.26,,,,1.51,,,8.44,13.73,-0.06,,1.92,,-0.01,,2.36,,,0.81,,,-0.21,,,3.32,,,2.73,
+48,10,The wall calendar with the landscape always smiles.,none,semantic,c,landscape,always,smiles,7.19,13.23,,,0.02,,,,3.44,,6.74,13.66,,,0.07,,,,4.67,,7.58,12.33,,,,,,,,,,,-0.05,,,,,,1.92,,,
+49,10,The wall calendar with the lady always smiles.,semantic,semantic,d,lady,always,smiles,7.01,10.75,,,,-0.16,,,,0.96,6.35,10.89,,,,-0.32,,,,1.9,7.63,10.81,,0.18,,2.48,,0.39,,2.77,,,,0.0,,-0.05,,,,0.4,,1.52
+50,11,The washer by the dryer sometimes leaks.,none,none,s,dryer,sometimes,leaks,4.71,10.62,,,,,,,,,4.72,6.99,,,,,,,,,5.99,15.34,,,,,,,,,,,,,,,,,,,,
+51,11,The washer by the dryer sometimes leak.,none,morphosyntactic,a,dryer,sometimes,leak,5.0,13.63,0.29,,,,3.01,,,,5.15,11.59,0.43,,,,4.6,,,,6.09,16.06,,,,,,,,,0.1,,,,,,0.72,,,,,
+52,11,The washer by the dryers sometimes leak.,morphosyntactic,morphosyntactic,b,dryers,sometimes,leak,5.28,11.48,,0.57,,,,0.86,,,5.37,9.34,,0.65,,,,2.35,,,6.36,15.27,-0.28,,2.15,,-0.22,,2.25,,,0.37,,,-0.27,,,-0.07,,,0.79,
+53,11,The washer by the dryer sometimes cooks.,none,semantic,c,dryer,sometimes,cooks,5.12,12.04,,,0.41,,,,1.42,,5.51,12.63,,,0.79,,,,5.64,,6.18,14.64,,,,,,,,,,,0.19,,,,,,-0.7,,,
+54,11,The washer by the stove sometimes cooks.,semantic,semantic,d,stove,sometimes,cooks,5.67,10.91,,,,0.96,,,,0.29,6.18,10.7,,,,1.46,,,,3.71,6.94,13.62,,-0.55,,1.13,,-0.67,,1.93,,,,0.95,,-0.76,,,,-1.72,,1.02
+55,12,The newsstand near the bench usually sells.,none,none,s,bench,usually,sells,6.7,3.78,,,,,,,,,6.62,3.67,,,,,,,,,7.51,8.12,,,,,,,,,,,,,,,,,,,,
+56,12,The newsstand near the bench usually sell.,none,morphosyntactic,a,bench,usually,sell,7.4,12.04,0.7,,,,8.26,,,,7.0,9.35,0.38,,,,5.68,,,,8.15,16.18,,,,,,,,,0.64,,,,,,8.06,,,,,
+57,12,The newsstand near the coffee shops usually sell.,morphosyntactic,morphosyntactic,b,shops,usually,sell,6.51,8.93,,-0.19,,,,5.15,,,6.24,8.62,,-0.38,,,,4.95,,,6.81,9.08,0.89,,3.11,,0.76,,0.73,,,-0.7,,,1.34,,,0.96,,,7.1,
+58,12,The newsstand near the bench usually smells.,none,semantic,c,bench,usually,smells,7.13,11.71,,,0.43,,,,7.93,,6.55,8.18,,,-0.07,,,,4.51,,7.78,10.81,,,,,,,,,,,0.27,,,,,,2.69,,,
+59,12,The newsstand near the coffee shop usually smells.,semantic,semantic,d,shop,usually,smells,6.27,10.73,,,,-0.43,,,,6.95,5.45,8.47,,,,-1.17,,,,4.8,6.69,9.26,,0.86,,0.98,,1.1,,-0.29,,,,-0.82,,1.09,,,,1.14,,1.55
+60,13,The fireplace near the shelf soothingly crackles.,none,none,s,shelf,soothingly,crackles,6.49,7.45,,,,,,,,,6.1,3.36,,,,,,,,,7.08,6.77,,,,,,,,,,,,,,,,,,,,
+61,13,The fireplace near the shelf soothingly crackle.,none,morphosyntactic,a,shelf,soothingly,crackle,6.79,9.49,0.3,,,,2.04,,,,6.75,7.07,0.65,,,,3.71,,,,7.6,9.76,,,,,,,,,0.52,,,,,,2.99,,,,,
+62,13,The fireplace near the shelves soothingly crackle.,morphosyntactic,morphosyntactic,b,shelves,soothingly,crackle,6.78,9.32,,0.29,,,,1.87,,,6.59,6.58,,0.49,,,,3.22,,,7.55,8.49,0.01,,0.17,,0.16,,0.49,,,0.47,,,0.05,,,1.72,,,1.27,
+63,13,The fireplace near the shelf soothingly rocks.,none,semantic,c,shelf,soothingly,rocks,7.16,13.03,,,0.67,,,,5.58,,7.28,10.18,,,1.18,,,,6.82,,7.82,11.51,,,,,,,,,,,0.74,,,,,,4.74,,,
+64,13,The fireplace near the chair soothingly rocks.,semantic,semantic,d,chair,soothingly,rocks,6.89,13.65,,,,0.4,,,,6.2,6.81,9.94,,,,0.71,,,,6.58,7.43,11.98,,0.27,,-0.62,,0.47,,0.24,,,,0.35,,0.39,,,,5.21,,-0.47
+65,14,The bakery near the office building rarely smells.,none,none,s,building,rarely,smells,6.13,8.94,,,,,,,,,6.51,8.23,,,,,,,,,7.24,9.42,,,,,,,,,,,,,,,,,,,,
+66,14,The bakery near the office building rarely smell.,none,morphosyntactic,a,building,rarely,smell,7.01,18.86,0.88,,,,9.92,,,,7.11,15.65,0.6,,,,7.42,,,,7.87,18.23,,,,,,,,,0.63,,,,,,8.81,,,,,
+67,14,The bakery near the office buildings rarely smell.,morphosyntactic,morphosyntactic,b,buildings,rarely,smell,7.22,16.66,,1.09,,,,7.72,,,7.29,14.37,,0.78,,,,6.14,,,7.9,14.25,-0.21,,2.2,,-0.18,,1.28,,,0.66,,,-0.03,,,4.83,,,3.98,
+68,14,The bakery near the office building rarely sprays.,none,semantic,c,building,rarely,sprays,6.04,6.14,,,-0.09,,,,-2.8,,6.23,7.89,,,-0.28,,,,-0.34,,6.87,8.16,,,,,,,,,,,-0.37,,,,,,-1.26,,,
+69,14,The bakery near the fire hydrant rarely sprays.,semantic,semantic,d,hydrant,rarely,sprays,5.62,4.98,,,,-0.51,,,,-3.96,5.71,7.75,,,,-0.8,,,,-0.48,6.12,6.01,,0.42,,1.16,,0.52,,0.14,,,,-1.12,,0.75,,,,-3.41,,2.15
+70,15,The cinema near the playground sometimes advertises.,none,none,s,playground,sometimes,advertises,6.76,5.77,,,,,,,,,6.62,5.72,,,,,,,,,7.75,5.64,,,,,,,,,,,,,,,,,,,,
+71,15,The cinema near the playground sometimes advertise.,none,morphosyntactic,a,playground,sometimes,advertise,8.29,18.45,1.53,,,,12.68,,,,7.79,15.18,1.17,,,,9.46,,,,9.29,17.89,,,,,,,,,1.54,,,,,,12.25,,,,,
+72,15,The cinema near the playgrounds sometimes advertise.,morphosyntactic,morphosyntactic,b,playgrounds,sometimes,advertise,7.4,14.09,,0.64,,,,8.32,,,7.22,13.2,,0.6,,,,7.48,,,8.25,13.86,0.89,,4.36,,0.57,,1.98,,,0.5,,,1.04,,,8.22,,,4.03,
+73,15,The cinema near the playground sometimes sheds.,none,semantic,c,playground,sometimes,sheds,7.62,12.22,,,0.86,,,,6.45,,7.56,13.08,,,0.94,,,,7.36,,8.62,12.47,,,,,,,,,,,0.87,,,,,,6.83,,,
+74,15,The cinema near the old tree sometimes sheds.,semantic,semantic,d,tree,sometimes,sheds,7.45,11.51,,,,0.69,,,,5.74,7.35,12.63,,,,0.73,,,,6.91,8.24,10.96,,0.17,,0.71,,0.21,,0.45,,,,0.49,,0.38,,,,5.32,,1.51
+75,16,The blender next to the breadmaker loudly whirrs.,none,none,s,breadmaker,loudly,whirrs,5.64,5.28,,,,,,,,,4.94,2.95,,,,,,,,,6.75,6.94,,,,,,,,,,,,,,,,,,,,
+76,16,The blender next to the breadmaker loudly whirr.,none,morphosyntactic,a,breadmaker,loudly,whirr,5.85,6.36,0.21,,,,1.08,,,,5.3,4.7,0.36,,,,1.75,,,,6.8,6.79,,,,,,,,,0.05,,,,,,-0.15,,,,,
+77,16,The blender next to the breadmakers loudly whirr.,morphosyntactic,morphosyntactic,b,breadmakers,loudly,whirr,6.08,5.81,,0.44,,,,0.53,,,5.54,4.7,,0.6,,,,1.75,,,6.81,5.91,-0.23,,0.55,,-0.24,,0.0,,,0.06,,,-0.01,,,-1.03,,,0.88,
+78,16,The blender next to the breadmaker loudly hisses.,none,semantic,c,breadmaker,loudly,hisses,5.97,6.7,,,0.33,,,,1.42,,5.35,3.97,,,0.41,,,,1.02,,7.08,7.77,,,,,,,,,,,0.33,,,,,,0.83,,,
+79,16,The blender next to the coffee machine loudly hisses.,semantic,semantic,d,machine,loudly,hisses,5.51,7.08,,,,-0.13,,,,1.8,4.81,3.55,,,,-0.13,,,,0.6,6.63,8.44,,0.46,,-0.38,,0.54,,0.42,,,,-0.12,,0.45,,,,1.5,,-0.67
+80,17,The display next to the plant suddenly flickers.,none,none,s,plant,suddenly,flickers,5.26,5.14,,,,,,,,,5.03,4.09,,,,,,,,,5.95,6.44,,,,,,,,,,,,,,,,,,,,
+81,17,The display next to the plant suddenly flicker.,none,morphosyntactic,a,plant,suddenly,flicker,5.46,6.53,0.2,,,,1.39,,,,5.59,7.21,0.56,,,,3.12,,,,6.03,7.17,,,,,,,,,0.08,,,,,,0.73,,,,,
+82,17,The display next to the plants suddenly flicker.,morphosyntactic,morphosyntactic,b,plants,suddenly,flicker,5.39,5.22,,0.13,,,,0.08,,,5.76,6.83,,0.73,,,,2.74,,,6.0,5.76,0.07,,1.31,,-0.17,,0.38,,,0.05,,,0.03,,,-0.68,,,1.41,
+83,17,The display next to the plant suddenly clicks.,none,semantic,c,plant,suddenly,clicks,5.94,10.68,,,0.68,,,,5.54,,6.36,14.54,,,1.33,,,,10.45,,6.5,10.89,,,,,,,,,,,0.55,,,,,,4.45,,,
+84,17,The display next to the keyboard suddenly clicks.,semantic,semantic,d,keyboard,suddenly,clicks,5.34,8.48,,,,0.08,,,,3.34,5.92,13.18,,,,0.89,,,,9.09,6.0,9.3,,0.6,,2.2,,0.44,,1.36,,,,0.05,,0.5,,,,2.86,,1.59
+85,18,The keyboard next to the display apparently clicks.,none,none,s,display,apparently,clicks,5.94,13.76,,,,,,,,,6.21,13.15,,,,,,,,,6.38,12.77,,,,,,,,,,,,,,,,,,,,
+86,18,The keyboard next to the display apparently click.,none,morphosyntactic,a,display,apparently,click,6.33,17.23,0.39,,,,3.47,,,,6.57,15.71,0.36,,,,2.56,,,,6.8,16.45,,,,,,,,,0.42,,,,,,3.68,,,,,
+87,18,The keyboard next to the displays apparently click.,morphosyntactic,morphosyntactic,b,displays,apparently,click,6.76,16.04,,0.82,,,,2.28,,,6.87,14.52,,0.66,,,,1.37,,,7.18,15.42,-0.43,,1.19,,-0.3,,1.19,,,0.8,,,-0.38,,,2.65,,,1.03,
+88,18,The keyboard next to the display apparently withers.,none,semantic,c,display,apparently,withers,5.14,5.6,,,-0.8,,,,-8.16,,5.55,5.98,,,-0.66,,,,-7.17,,5.44,4.78,,,,,,,,,,,-0.94,,,,,,-7.99,,,
+89,18,The keyboard next to the plant apparently withers.,semantic,semantic,d,plant,apparently,withers,5.51,5.49,,,,-0.43,,,,-8.27,5.63,5.27,,,,-0.58,,,,-7.88,6.0,4.83,,-0.37,,0.11,,-0.08,,0.71,,,,-0.38,,-0.56,,,,-7.94,,-0.05
+90,19,The water meter next to the towel hook regularly ticks.,none,none,s,hook,regularly,ticks,6.59,11.05,,,,,,,,,6.58,12.51,,,,,,,,,7.48,12.67,,,,,,,,,,,,,,,,,,,,
+91,19,The water meter next to the towel hook regularly tick.,none,morphosyntactic,a,hook,regularly,tick,7.18,12.72,0.59,,,,1.67,,,,6.95,12.04,0.37,,,,-0.47,,,,7.82,13.53,,,,,,,,,0.34,,,,,,0.86,,,,,
+92,19,The water meter next to the towel hooks regularly tick.,morphosyntactic,morphosyntactic,b,hooks,regularly,tick,6.81,12.26,,0.22,,,,1.21,,,7.0,12.37,,0.42,,,,-0.14,,,7.77,15.75,0.37,,0.46,,-0.05,,-0.33,,,0.29,,,0.05,,,3.08,,,-2.22,
+93,19,The water meter next to the towel hook regularly leaks.,none,semantic,c,hook,regularly,leaks,6.19,6.3,,,-0.4,,,,-4.75,,5.97,5.71,,,-0.61,,,,-6.8,,7.29,10.71,,,,,,,,,,,-0.19,,,,,,-1.96,,,
+94,19,The water meter next to the sink regularly leaks.,semantic,semantic,d,sink,regularly,leaks,4.95,6.16,,,,-1.64,,,,-4.89,5.24,5.81,,,,-1.34,,,,-6.7,6.01,9.3,,1.24,,0.14,,0.73,,-0.1,,,,-1.47,,1.28,,,,-3.37,,1.41
+95,20,The pipe below the light switch usually dribbles.,none,none,s,switch,usually,dribbles,5.93,8.87,,,,,,,,,5.6,7.92,,,,,,,,,6.87,9.89,,,,,,,,,,,,,,,,,,,,
+96,20,The pipe below the light switch usually dribble.,none,morphosyntactic,a,switch,usually,dribble,6.51,12.88,0.58,,,,4.01,,,,6.23,11.43,0.63,,,,3.51,,,,7.22,12.36,,,,,,,,,0.35,,,,,,2.47,,,,,
+97,20,The pipe below the light switches usually dribble.,morphosyntactic,morphosyntactic,b,switches,usually,dribble,6.56,11.57,,0.63,,,,2.7,,,6.14,9.99,,0.54,,,,2.07,,,7.08,10.42,-0.05,,1.31,,0.09,,1.44,,,0.21,,,0.14,,,0.53,,,1.94,
+98,20,The pipe below the light switch usually swings out.,none,semantic,c,switch,usually,swings out,5.72,8.43,,,-0.21,,,,-0.44,,5.56,7.81,,,-0.04,,,,-0.11,,6.71,8.75,,,,,,,,,,,-0.16,,,,,,-1.14,,,
+99,20,The pipe above the window usually swings out.,semantic,semantic,d,window,usually,swings out,5.84,7.82,,,,-0.09,,,,-1.05,5.97,6.9,,,,0.37,,,,-1.02,6.93,9.14,,-0.12,,0.61,,-0.41,,0.91,,,,0.06,,-0.22,,,,-0.75,,-0.39
+100,21,The radio by the desk usually plays.,none,none,s,desk,usually,plays,6.7,7.08,,,,,,,,,7.08,6.77,,,,,,,,,7.72,7.34,,,,,,,,,,,,,,,,,,,,
+101,21,The radio by the desk usually play.,none,morphosyntactic,a,desk,usually,play,7.16,11.81,0.46,,,,4.73,,,,7.61,13.19,0.53,,,,6.42,,,,8.33,13.67,,,,,,,,,0.61,,,,,,6.33,,,,,
+102,21,The radio by the desks usually play.,morphosyntactic,morphosyntactic,b,desks,usually,play,7.14,9.66,,0.44,,,,2.58,,,7.82,10.15,,0.74,,,,3.38,,,8.31,8.77,0.02,,2.15,,-0.21,,3.04,,,0.59,,,0.02,,,1.43,,,4.9,
+103,21,The radio by the desk usually glows.,none,semantic,c,desk,usually,glows,6.18,6.52,,,-0.52,,,,-0.56,,6.34,5.83,,,-0.74,,,,-0.94,,7.05,6.98,,,,,,,,,,,-0.67,,,,,,-0.36,,,
+104,21,The radio by the lamp usually glows.,semantic,semantic,d,lamp,usually,glows,6.1,5.29,,,,-0.6,,,,-1.79,6.44,5.03,,,,-0.64,,,,-1.74,7.35,6.11,,0.08,,1.23,,-0.1,,0.8,,,,-0.37,,-0.3,,,,-1.23,,0.87
+105,22,The car without license plate suddenly slows down.,none,none,s,plate,suddenly,slows down,4.75,4.72,,,,,,,,,4.98,4.43,,,,,,,,,5.7,4.63,,,,,,,,,,,,,,,,,,,,
+106,22,The car without license plate suddenly slow down.,none,morphosyntactic,a,plate,suddenly,slow down,5.3,7.89,0.55,,,,3.17,,,,5.52,7.47,0.54,,,,3.04,,,,6.21,7.64,,,,,,,,,0.51,,,,,,3.01,,,,,
+107,22,The car without license plates suddenly slow down.,morphosyntactic,morphosyntactic,b,plates,suddenly,slow down,5.27,7.41,,0.52,,,,2.69,,,5.6,7.75,,0.62,,,,3.32,,,6.18,6.97,0.03,,0.48,,-0.08,,-0.28,,,0.48,,,0.03,,,2.34,,,0.67,
+108,22,The car without license plate suddenly inflates.,none,semantic,c,plate,suddenly,inflates,5.39,8.0,,,0.64,,,,3.28,,5.59,7.48,,,0.61,,,,3.05,,6.28,7.65,,,,,,,,,,,0.58,,,,,,3.02,,,
+109,22,The car with the faulty airbag suddenly inflates.,semantic,semantic,d,airbag,suddenly,inflates,4.9,6.71,,,,0.15,,,,1.99,4.27,4.21,,,,-0.71,,,,-0.22,5.59,6.63,,0.49,,1.29,,1.32,,3.27,,,,-0.11,,0.69,,,,2.0,,1.02
+110,23,The medication for the allergy obviously helps.,none,none,s,allergy,obviously,helps,6.21,6.01,,,,,,,,,6.4,5.89,,,,,,,,,7.05,6.82,,,,,,,,,,,,,,,,,,,,
+111,23,The medication for the allergy obviously help.,none,morphosyntactic,a,allergy,obviously,help,6.91,12.59,0.7,,,,6.58,,,,7.0,10.58,0.6,,,,4.69,,,,7.7,12.79,,,,,,,,,0.65,,,,,,5.97,,,,,
+112,23,The medication for the allergies obviously help.,morphosyntactic,morphosyntactic,b,allergies,obviously,help,6.85,10.18,,0.64,,,,4.17,,,6.79,8.71,,0.39,,,,2.82,,,7.57,10.38,0.06,,2.41,,0.21,,1.87,,,0.52,,,0.13,,,3.56,,,2.41,
+113,23,The medication for the allergy obviously spreads.,none,semantic,c,allergy,obviously,spreads,6.83,11.97,,,0.62,,,,5.96,,7.37,14.28,,,0.97,,,,8.39,,7.73,13.21,,,,,,,,,,,0.68,,,,,,6.39,,,
+114,23,The medication for the infection obviously spreads.,semantic,semantic,d,infection,obviously,spreads,6.61,10.67,,,,0.4,,,,4.66,6.58,11.38,,,,0.18,,,,5.49,7.28,12.39,,0.22,,1.3,,0.79,,2.9,,,,0.23,,0.45,,,,5.57,,0.82
+115,24,The treatment for the infection finally works.,none,none,s,infection,finally,works,5.51,8.46,,,,,,,,,5.76,9.0,,,,,,,,,5.98,5.86,,,,,,,,,,,,,,,,,,,,
+116,24,The treatment for the infection finally work.,none,morphosyntactic,a,infection,finally,work,6.15,14.37,0.64,,,,5.91,,,,6.22,13.09,0.46,,,,4.09,,,,6.63,12.71,,,,,,,,,0.65,,,,,,6.85,,,,,
+117,24,The treatment for the infections finally work.,morphosyntactic,morphosyntactic,b,infections,finally,work,6.27,13.78,,0.76,,,,5.32,,,6.66,13.01,,0.9,,,,4.01,,,6.73,11.47,-0.12,,0.59,,-0.44,,0.08,,,0.75,,,-0.1,,,5.61,,,1.24,
+118,24,The treatment for the infection finally closes.,none,semantic,c,infection,finally,closes,6.23,13.64,,,0.72,,,,5.18,,6.49,14.96,,,0.73,,,,5.96,,6.71,11.85,,,,,,,,,,,0.73,,,,,,5.99,,,
+119,24,The treatment for the wound finally closes.,semantic,semantic,d,wound,finally,closes,6.22,12.26,,,,0.71,,,,3.8,5.7,9.52,,,,-0.06,,,,0.52,6.96,11.42,,0.01,,1.38,,0.79,,5.44,,,,0.98,,-0.25,,,,5.56,,0.43
+120,25,The fence around the garden supposedly conceals.,none,none,s,garden,supposedly,conceals,6.0,6.28,,,,,,,,,6.2,4.93,,,,,,,,,6.79,6.61,,,,,,,,,,,,,,,,,,,,
+121,25,The fence around the garden supposedly conceal.,none,morphosyntactic,a,garden,supposedly,conceal,7.2,17.18,1.2,,,,10.9,,,,7.01,13.83,0.81,,,,8.9,,,,8.19,17.34,,,,,,,,,1.4,,,,,,10.73,,,,,
+122,25,The fence around the gardens supposedly conceal.,morphosyntactic,morphosyntactic,b,gardens,supposedly,conceal,7.43,15.3,,1.43,,,,9.02,,,7.31,12.86,,1.11,,,,7.93,,,8.36,15.47,-0.23,,1.88,,-0.3,,0.97,,,1.57,,,-0.17,,,8.86,,,1.87,
+123,25,The fence around the garden supposedly teaches.,none,semantic,c,garden,supposedly,teaches,6.68,12.83,,,0.68,,,,6.55,,7.15,13.42,,,0.95,,,,8.49,,7.86,13.75,,,,,,,,,,,1.07,,,,,,7.14,,,
+124,25,The fence around the school supposedly teaches.,semantic,semantic,d,school,supposedly,teaches,6.44,12.43,,,,0.44,,,,6.15,6.95,12.43,,,,0.75,,,,7.5,7.65,13.81,,0.24,,0.4,,0.2,,0.99,,,,0.86,,0.21,,,,7.2,,-0.06
+125,26,The pond with the bridge clearly dries up.,none,none,s,bridge,clearly,dries up,5.41,6.19,,,,,,,,,5.42,6.2,,,,,,,,,6.2,6.68,,,,,,,,,,,,,,,,,,,,
+126,26,The pond with the bridge clearly dry up.,none,morphosyntactic,a,bridge,clearly,dry up,6.62,12.4,1.21,,,,6.21,,,,6.6,12.13,1.18,,,,5.93,,,,7.26,11.8,,,,,,,,,1.06,,,,,,5.12,,,,,
+127,26,The pond with the bridges clearly dry up.,morphosyntactic,morphosyntactic,b,bridges,clearly,dry up,6.5,9.9,,1.09,,,,3.71,,,6.83,11.15,,1.41,,,,4.95,,,7.36,9.96,0.12,,2.5,,-0.23,,0.98,,,1.16,,,-0.1,,,3.28,,,1.84,
+128,26,The pond with the bridge clearly sells.,none,semantic,c,bridge,clearly,sells,6.62,13.86,,,1.21,,,,7.67,,7.32,19.75,,,1.9,,,,13.55,,7.46,14.13,,,,,,,,,,,1.26,,,,,,7.45,,,
+129,26,The pond near the farm stand clearly sells.,semantic,semantic,d,stand,clearly,sells,6.81,11.83,,,,1.4,,,,5.64,7.03,14.24,,,,1.61,,,,8.04,7.47,12.0,,-0.19,,2.03,,0.29,,5.51,,,,1.27,,-0.01,,,,5.32,,2.13
+130,27,The mansion near the hill allegedly costs.,none,none,s,hill,allegedly,costs,7.7,10.95,,,,,,,,,8.11,10.96,,,,,,,,,8.14,10.2,,,,,,,,,,,,,,,,,,,,
+131,27,The mansion near the hill allegedly cost.,none,morphosyntactic,a,hill,allegedly,cost,7.41,7.95,-0.29,,,,-3.0,,,,7.91,8.42,-0.2,,,,-2.54,,,,7.9,7.21,,,,,,,,,-0.24,,,,,,-2.99,,,,,
+132,27,The mansion near the hills allegedly cost.,morphosyntactic,morphosyntactic,b,hills,allegedly,cost,7.48,7.6,,-0.22,,,,-3.35,,,8.29,8.06,,0.18,,,,-2.9,,,8.1,6.79,-0.07,,0.35,,-0.38,,0.36,,,-0.04,,,-0.2,,,-3.41,,,0.42,
+133,27,The mansion near the hill allegedly dries up.,none,semantic,c,hill,allegedly,dries up,5.97,6.34,,,-1.73,,,,-4.61,,6.2,6.85,,,-1.91,,,,-4.11,,6.72,7.64,,,,,,,,,,,-1.42,,,,,,-2.56,,,
+134,27,The mansion near the pond allegedly dries up.,semantic,semantic,d,pond,allegedly,dries up,5.72,5.93,,,,-1.98,,,,-5.02,5.97,6.45,,,,-2.14,,,,-4.51,6.65,7.11,,0.25,,0.41,,0.23,,0.4,,,,-1.49,,0.07,,,,-3.09,,0.53
